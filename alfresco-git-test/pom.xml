@@ -34,6 +34,8 @@
              for embedded run, defaults to the 'local' environment. See SDK Parent POM for more info.
         <env>local</env>
         -->
+        <!-- we run alfresco.WAR on port 9191 -->
+				<maven.tomcat.port>8091</maven.tomcat.port>
     </properties>
 
     <!-- Here we realize the connection with the Alfresco selected platform 
